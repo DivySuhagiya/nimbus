@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useGSAP } from "@gsap/react";
@@ -43,6 +44,7 @@ export function FadeIn({
       });
 
       // Create ScrollTrigger config conditionally
+
       const scrollTriggerConfig: any = {
         trigger: containerRef.current,
         start,
